@@ -1,0 +1,55 @@
+.button {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  background: #189AB4;
+  color: white;
+  cursor: pointer;
+  margin-right: 1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button--proceed {
+  color: white;
+  background: #189AB4;
+}
+
+.button--proceed:hover,
+.button--proceed:active {
+  color: white;
+  background: #053a51;
+}
+
+.button--cancel {
+  background: #ffffff;
+  border-color: #d0d0d0;
+  color: #000;
+}
+
+.button--cancel:hover,
+.button--cancel:active {
+  border-color: #7a7a7a;
+}
+
+.button:disabled,
+.button:hover:disabled,
+.button:active:disabled {
+  background: #ccc;
+  color: #979797;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+.button--small {
+  font-size: 0.8rem;
+}
+
+.button--big {
+  font-size: 1.5rem;
+}

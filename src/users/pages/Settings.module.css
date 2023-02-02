@@ -1,0 +1,27 @@
+.accountActions{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 15rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.accountActions__delete{
+    cursor: pointer;
+}
+
+.input{
+    width: 100%;
+    text-align: center;
+}
+
+.input input{
+    border: 1px solid #ccc;
+    height: 1.9rem;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.input input::placeholder{
+    color: #ccc;
+}

@@ -1,0 +1,30 @@
+.menu{
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 60px);
+    margin-top: 60px;
+    padding: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.menu li{
+    list-style: none;
+    margin: 17px 0px;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(58, 58, 58);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu li ion-icon{
+    font-size: 1.5rem;
+}
+
+.menu li a:hover{
+    color: rgb(0, 106, 255);
+}
